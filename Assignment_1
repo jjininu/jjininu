@@ -1,0 +1,70 @@
+Python Basic 
+Assignment - 1
+
+1. In the below elements which of them are values or an expression? eg:- values can be
+Integer or string and expressions will be mathematical operators.
+ *  ,  ‘hellow’ , -87.8  ,  -  ,  / ,  +  ,  6
+ 
+ANSWER:
+values	expressions
+‘hellow’	*
+-87.8	-
+6	+
+	/
+
+2. What is the difference between string and variable?
+ANSWER: 
+String is a data type in python which are a sequence of characters, be it an alphabets, special character, or other. Variables are containers for storing data values, reserved memory location to store values. The values can be a data with type string, integer or others. Variables can store data of different types, and different types can do different things
+Ex.
+X = ‘Hellow’
+	X is a variable representing the a string ‘Hallow’
+  
+
+3. Describe three different data types.
+The three main type of data are
+ ANSWER:
+A.	Text Type  :    This types include string which consists of sequence of characters 
+B.	Numeric Types:  a type of data that consists of only Integers, float or complex.
+C.	Boolean types : are either True or False 
+   Other data types includes Sequence Types (list, tuple, and range), Mapping Type (Dictionary) and Set Types.
+
+
+4. What is an expression made up of? What do all expressions do?
+ANSWER: 
+ An expression in python is made up of operators which are a special characters or symbols that design to signify some computational process on other operable characters called operands.  Ex 2 + 5 + a – 4
+
+5. This assignment statements, like spam = 10. What is the difference between Expression and a statement?
+ANSWER :
+In case of statement the outcome is the same as the one we set up initially where as in case of Expression the outcome is after the computational process that will among the given operands.
+
+6. After running the following code, what does the variable bacon contain?
+ bacon = 22
+ bacon + 1
+  ANSWER:
+     22
+     
+7. What should the values of the following two terms be?
+•	'spam' + 'spamspam'
+ANSWER:  
+      ‘spamspamspam’
+•	'spam' * 3 
+ANSWER:
+     ‘spamspamspam’
+     
+     
+8.Why is eggs a valid variable name while 100 is invalid?
+ANSWER:
+As per the variable naming rule variables name cannot start with number, space or character except ‘_’.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+ANSWER:       
+•	STRING  :  srt()
+•	Integer   :    int()
+•	Floating-point number   :    float()
+                     
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+ANSWER:
+We can’t add or concatenate string with number. We can correct it by type casting the number to string to concat all the three strings.
+
+
